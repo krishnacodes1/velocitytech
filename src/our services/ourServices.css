@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.theme-text {
+  color: #ee6700;
+  
+}
+.fullcard{
+  z-index: -1;
+  /* width: 100%; */
+}
+.card-img-top {
+  height: 170px;
+  width: 100%;
+  padding: 3%;
+}
+.card {
+  overflow: hidden;
+  transition: 0.5s;
+  height: 460px;
+}
+.container-fluid {
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 657px) {
+  .service-card{
+    column-gap: 20px;
+  }
+  .card {
+    height: 470px;
+    margin: 20px 20px 0 20px;
+  }
+  .fullcard{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1129px) {
+.fullcard{
+  width: 50%;
+}
+}
+
+@media only screen and (max-width: 666px) {
+.fullcard{
+  width: 80%;
+}
+}
